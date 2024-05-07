@@ -1,0 +1,18 @@
+package com.kh.hamburger;
+
+public class HamburgerOrder {
+	private String clinetName;
+	private String burgerType;
+	
+	public HamburgerOrder(String inName, String inType) {
+		this.clinetName = inName;
+		this.burgerType = inType;
+	}
+
+	@Override
+	public String toString() {
+		return clinetName + " " + burgerType;
+	}
+	
+	
+}

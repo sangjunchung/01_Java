@@ -1,0 +1,17 @@
+package com.kh.fileEx;
+
+import java.io.File;
+
+public class FileEx {
+
+	public static void main(String[] args) {
+		String fileName = "example.txt";
+		File file = new File(fileName);
+		
+		if(file.exists()) {
+			System.out.println("파일이 이미 존재합니다.");
+		} else {
+			file.createNewFile();
+		}
+	}
+}

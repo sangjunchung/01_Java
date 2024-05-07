@@ -1,0 +1,18 @@
+package com.kh.test.main.oop;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Dog happy = new Dog();
+		Dog love = new Dog();
+		Dog hope = new Dog();
+		
+		happy.makeSound();
+		love.makeSound();
+		hope.makeSound();
+		
+		happy.eat();
+		love.eat();
+		hope.eat();
+	}
+}

@@ -1,0 +1,49 @@
+package com.kh.test.main;
+
+public class ParseStringPre2 {
+
+	public static void main(String[] args) {
+		String phone = "01012345678";
+		int num1 = Integer.parseInt(phone);
+		System.out.println(num1);
+
+		String score = "88.9";
+		double num2 = Double.parseDouble(score);
+		System.out.println(num2);
+
+		int phone2 = 102345678;
+		String str1 = Integer.toString(phone2);
+		System.out.println(str1);
+
+		double score2 = 72.5;
+		String str2 = Double.toString(score2);
+		System.out.println(str2);
+
+		String phone3 = "010-1234-5678";
+		String del = phone3.replace("-", "");
+		System.out.println(del);
+
+		String id = "230304-1234567";
+		String del2 = id.replace("-", "");
+		System.out.println(del2);
+
+		String id2 = "240101-3456789";
+		String del3 = id2.replace("-", "");
+		char gender = del3.charAt(6);
+		System.out.println(gender);
+
+		String gender2 = (gender == '1' || gender == '3') ? "남성" : "여성";
+		System.out.println(gender2);
+
+		String id3 = "200101-4567891";
+		String del4 = id3.replace("-", "");
+		char check = del4.charAt(6);
+		String gender3 = (check == '1' || check == '3') ? "남성" : "여성";
+		System.out.println(gender3);
+
+		String id4 = "870101-23454-8";
+		boolean isCount = (id4.length() == 14) && (id4.charAt(6) == '-') && (id.substring(0, 6).matches("^[0-9]"))
+				&& (id.substring(7).matches("^[0-9]"));
+		System.out.println(isCount);
+	}
+}

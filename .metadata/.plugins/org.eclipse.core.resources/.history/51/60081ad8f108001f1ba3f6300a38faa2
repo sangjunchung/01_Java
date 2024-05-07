@@ -1,0 +1,23 @@
+package com.kh.datePre;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DateEx {
+
+	public static void main(String[] args) {
+		Date now = new Date();
+
+		SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-dd");
+		String a = sdf1.format(now);
+		System.out.println(a);
+
+		SimpleDateFormat sdf2 = new SimpleDateFormat("HH:mm:ss");
+		String b = sdf2.format(now);
+		System.out.println(b);
+
+		SimpleDateFormat sdf3 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		String c = sdf3.format(now);
+		System.out.println(c);
+	}
+}

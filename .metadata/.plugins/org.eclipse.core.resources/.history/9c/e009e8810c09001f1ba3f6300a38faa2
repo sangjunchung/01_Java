@@ -1,0 +1,15 @@
+package com.kh.test.main;
+
+public class 배열힙스택 {
+
+	public static void main(String[] args) {
+		int[] array = new int[5];
+		array[0] = 1;
+		array[1] = 2;
+		array[2] = 3;
+		array[3] = 4;
+		array[4] = 5;
+		
+		System.out.println();
+	}
+}

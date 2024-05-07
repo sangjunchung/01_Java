@@ -1,0 +1,15 @@
+package com.kh.fileEx;
+
+import java.io.File;
+
+public class FileEx {
+
+	public static void main(String[] args) {
+		String fileName = "example.txt";
+		File file = new File(fileName);
+		
+		if(file.exists()) {
+			
+		}
+	}
+}

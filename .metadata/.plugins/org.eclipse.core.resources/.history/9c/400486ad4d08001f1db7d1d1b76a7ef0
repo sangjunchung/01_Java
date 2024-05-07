@@ -1,0 +1,11 @@
+package com.kh.BasicEx;
+
+// 가비지 컬렉터 : 안쓰는 변수, 객체 등을 청소하여 메모리 공간을 확보해줌
+/*
+Garbage Collection 
+ 
+*/
+
+public class 가비지컬렉터 {
+
+}

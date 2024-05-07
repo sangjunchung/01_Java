@@ -1,0 +1,16 @@
+package com.kh.propertiesPre;
+
+import java.util.Properties;
+
+public class UserSetting {
+
+	public static void main(String[] args) {
+		Properties setting = new Properties();
+		
+		setting.setProperty("name", "john");
+		setting.setProperty("age", "17");
+		setting.setProperty("city", "seoul");
+
+		System.out.println(setting.get("city"));
+	}
+}

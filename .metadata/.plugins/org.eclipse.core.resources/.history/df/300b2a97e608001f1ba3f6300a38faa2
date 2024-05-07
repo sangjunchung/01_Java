@@ -1,0 +1,8 @@
+package com.kh.numberSystem;
+
+public class 숫자시스템 {
+
+	public static void main(String[] args) {
+		
+	}
+}

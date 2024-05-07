@@ -1,0 +1,16 @@
+package com.kh.test.main;
+
+import java.util.ArrayList;
+
+public class ListSetEx {
+
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<>();
+		list.add("피자");
+		list.add("햄버거");
+		list.add("샌드위치");
+		list.add("피자");
+		
+	}
+
+}

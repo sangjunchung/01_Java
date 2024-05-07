@@ -1,0 +1,16 @@
+package com.kh.test.main;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class SetPre {
+
+	public static void main(String[] args) {
+		Set<String> set1 = new HashSet<>();
+		set1.add("사과");
+		set1.add("바나나");
+		set1.add("오렌지");
+
+		System.out.println("HashSet : " + set1);
+	}
+}

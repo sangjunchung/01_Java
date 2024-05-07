@@ -1,0 +1,12 @@
+package com.kh.datePre;
+
+import java.util.Date;
+
+public class DatePre {
+
+	public static void main(String[] args) {
+		Date now = new Date();
+		
+		System.out.println(now);
+	}
+}

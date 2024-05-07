@@ -1,0 +1,27 @@
+package com.kh.fileEx;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FilePre {
+
+	public static void main(String[] args) throws IOException {
+		String fileName = "practice.txt";
+		File file = new File(fileName);
+		
+		if(file.exists()) {
+			System.out.println("파일이 이미 존재합니다.");
+		} else {
+			file.createNewFile();
+			System.out.println("파일을 생성하였습니다.");
+		}
+		
+		FileWriter writer = new FileWriter(file);
+		writer.write("Java \n");
+		writer.write("File \n");
+		writer.write("객체 \n");
+		writer.close();
+		System.out.println("파일의 내용 작성이 완료되었습니다.");
+	}
+}

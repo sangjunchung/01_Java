@@ -1,0 +1,16 @@
+package pre.propertiesEx;
+
+import java.util.Properties;
+
+public class PropTest {
+
+	public static void fileSave(Properties p) {
+		p.setProperty("1", "패밀리맨,4,2000");
+		p.setProperty("2", "엔리멘탈,5,2023");
+		p.setProperty("3", "투모로우,5,2004");
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

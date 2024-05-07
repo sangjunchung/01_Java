@@ -1,0 +1,14 @@
+package com.kh.numberSystem;
+
+public class 숫자시스템 {
+
+	public static void main(String[] args) {
+		int num = 42;
+		
+		String a2 = Integer.toBinaryString(num);
+		System.out.println(a2);
+		
+		String a8 = Integer.toOctalString(num);
+		System.out.println(a8);
+	}
+}

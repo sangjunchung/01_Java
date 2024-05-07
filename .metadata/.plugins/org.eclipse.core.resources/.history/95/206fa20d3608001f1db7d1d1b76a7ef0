@@ -1,0 +1,21 @@
+package com.kh.goodShop;
+
+import java.util.*;
+
+public class ComputerShop {
+
+	public static void main(String[] args) {
+		Map<String, Integer> map = new HashMap<>();
+		map.put("노트북", 700000);
+		map.put("데스크탑", 20000);
+		map.put("모니터", 5000);
+		map.put("마우스", 3000);
+		map.put("키보드", 2000);
+
+		System.out.println("컴퓨터 상품 목록");
+		for (Map.Entry<String, Integer> e : map.entrySet()) {
+			System.out.println(e.getKey() + " : " + e.getValue());
+		}
+
+	}
+}

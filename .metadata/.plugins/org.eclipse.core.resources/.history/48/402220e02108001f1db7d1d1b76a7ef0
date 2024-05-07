@@ -1,0 +1,16 @@
+package com.kh.pizzaOrder;
+
+public class PizzaOrder {
+	private String clientName;
+	private String pizzaType;
+
+	public PizzaOrder(String inName, String inType) {
+		this.clientName = inName;
+		this.pizzaType = inType;
+	}
+
+	@Override
+	public String toString() {
+		return clientName + " " + pizzaType;
+	}
+}

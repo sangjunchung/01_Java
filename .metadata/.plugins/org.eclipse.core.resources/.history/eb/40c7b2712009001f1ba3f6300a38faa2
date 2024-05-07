@@ -1,0 +1,8 @@
+package pre.propertiesEx2;
+
+public class PropTest {
+
+	public static void main(String[] args) {
+		
+	}
+}

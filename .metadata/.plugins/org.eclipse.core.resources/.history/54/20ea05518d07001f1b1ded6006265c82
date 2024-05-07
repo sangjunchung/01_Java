@@ -1,0 +1,10 @@
+package com.kh.test.main;
+
+import java.util.ArrayList;
+
+public class 리스트예제 {
+
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<>();
+	}
+}

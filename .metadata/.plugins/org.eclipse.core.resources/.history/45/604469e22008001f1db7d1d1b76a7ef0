@@ -1,0 +1,10 @@
+package com.kh.pizzaOrder;
+
+import java.util.ArrayList;
+
+public class PizzaShop {
+
+	public static void main(String[] args) {
+		ArrayList<PizzaOrder> list = new ArrayList<>();
+	}
+}

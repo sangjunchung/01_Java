@@ -1,0 +1,12 @@
+package com.kh.exceptionEx;
+
+/*
+Exception (예외) : 프로그램 실행 중 발생하는 예기치 않은 상황을 나타냄
+
+try-catch
+try-catch-finally
+*/
+
+public class ExceptionEx {
+
+}

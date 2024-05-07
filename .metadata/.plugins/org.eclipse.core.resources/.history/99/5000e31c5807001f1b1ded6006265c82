@@ -1,0 +1,15 @@
+package com.kh.test.main.oop;
+
+public class Child extends Parent{
+	int chi;
+	
+	public Child() {
+	
+	}
+
+	public Child(int inPar, int chi) {
+		super();
+		this.chi = chi;
+	}
+	
+}

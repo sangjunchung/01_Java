@@ -1,0 +1,21 @@
+package com.kh.numberSystem;
+
+public class 숫자시스템 {
+
+	public static void main(String[] args) {
+		int num = 42;
+
+		String a2 = Integer.toBinaryString(num);
+		System.out.println(a2);
+
+		String a8 = Integer.toOctalString(num);
+		System.out.println(a8);
+
+		String a10 = Integer.toHexString(num);
+		System.out.println(a10);
+
+		String a22 = "101010";
+		int num10 = Integer.parseInt(a22, 8);
+		System.out.println(num10);
+	}
+}

@@ -1,0 +1,10 @@
+package com.kh.fileEx;
+
+import java.io.File;
+
+public class FileEx {
+
+	public static void main(String[] args) {
+		File file = new File("d.txt"); 
+	}
+}

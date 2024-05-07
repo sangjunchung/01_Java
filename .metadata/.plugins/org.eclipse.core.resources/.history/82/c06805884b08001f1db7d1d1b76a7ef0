@@ -1,0 +1,10 @@
+package com.kh.BasicEx;
+
+public class MyClass {
+	int id;
+	String message;
+	
+	public MyClass() {
+	
+	}
+}

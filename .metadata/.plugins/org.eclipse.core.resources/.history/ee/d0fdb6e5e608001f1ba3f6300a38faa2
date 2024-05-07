@@ -1,0 +1,12 @@
+package com.kh.numberSystem;
+
+public class 숫자시스템 {
+
+	public static void main(String[] args) {
+		int num = 42;
+		
+		String a = Integer.toBinaryString(num);
+		System.out.println(a);
+		
+	}
+}

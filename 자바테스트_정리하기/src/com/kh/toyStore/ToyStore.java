@@ -1,0 +1,17 @@
+package com.kh.toyStore;
+
+import java.util.*;
+
+public class ToyStore {
+
+	public static void main(String[] args) {
+		Map<String, Integer> map = new HashMap<>();
+		map.put("자동차", 10);
+		map.put("인형", 15);
+		map.put("공", 20);
+
+		for (Map.Entry<String, Integer> e : map.entrySet()) {
+			System.out.println(e.getKey() + " : " + e.getValue());
+		}
+	}
+}
